@@ -1,0 +1,265 @@
+/* Medium devices*/
+
+@media (max-width:799px) {
+    .section-p1{
+        padding: 40px 40px;
+    }
+    #navbar{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        position: fixed;
+        top: 20px;
+        right: -300px;
+        height: 100vh;
+        width: 300px;
+        background-color: #E3E6F3;
+        box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
+        padding: 80px 0 0 10px;
+    }
+    #navbar.active{
+        right: 100px;
+    }
+    #navbar li {
+        margin-bottom: 25px;
+    }
+
+    /* #mobile{
+        display: flex;
+        align-items: center;
+    } */
+
+    #mobile i{
+        color: #1a1a1a;
+        font-size: 24px;
+        padding-left: 20px;
+    }
+
+    #close{
+        /* display: initial; */
+        position: absolute;
+        top: 30px;
+        left: 30px;
+        color: #222;
+        font-size: 24px;
+    }
+
+    #lg-cart{
+        display: none;
+    }
+    /* hero */
+    #hero {
+        height: 70vh;
+        /* width: 50%; */
+        padding: 0 80px;
+        background-position: top 30% right 30%;
+    }
+
+    #feature{
+        justify-content: center;
+    }
+
+    #feature .fe-box{
+        margin: 15px 15px;
+    }
+
+    #product1 .pro-container {
+        justify-content:center;
+    }
+
+    #product1 .pro{
+        margin: 15px;
+    }
+
+    #banner{
+        max-height: 20vh;
+    }
+    #sm-banner .banner-box{
+        min-width: 100%;
+        max-height: 40vh;
+        margin-top: 10px;
+        
+    }
+
+    #banner3{
+        display: flex;
+        padding:  0 100vh;
+        width: 75%;     
+        margin: auto;
+        flex-direction: row;
+    }
+
+    #banner3 .banner-box{
+        max-width: 25%;
+    }
+
+    #usf .form{
+        min-width: 70%;
+    }
+    #form-details{
+        padding: 40px;
+    }
+    #form-details form{
+        width: 50%;
+    }
+}
+
+
+
+
+/* n */
+@media (min-width:799px){
+    #mobile{
+        display: none;
+        align-items: center;
+    }
+    #close{
+        display: none;
+    }
+    
+}
+
+
+
+
+
+/* small devics */
+@media (max-width:375px) {
+    .section-p1{
+        padding: 20px;
+    }
+    #header{
+        padding: 10px 30px;
+    }
+   #bar{
+    float: right;
+   }
+   .fa-solid{
+    float: right;
+   }
+    h1{
+        font-size: 38px;
+    }
+    h2{
+        font-size: 32px;
+    }
+    #hero{
+        padding: 0 20px;
+        zoom: 50%;
+        background-position: 55%;
+    }
+    #feature{
+        justify-content: space-between;
+    }
+    #feature .fe-box{
+        max-width: 60px;
+        margin: 0 0 15px 0;
+    }
+    #product1{
+        margin: 0;
+        padding: 0 0 0 20px;
+    }
+    #product1 .pro{
+        min-width: 100%;
+    }
+    #banner{
+        min-height: 30vh;
+        min-width: 50vh;
+        zoom: 50%;
+    }
+    #sm-banner .banner-box{
+        max-height: 40vh;
+        min-width: 150%;
+    }
+    #sm-banner .banner-box2{
+        margin-top: 20px;
+    }
+    #banner3{
+        padding: 0 0 0 20px;
+        /* zoom: 50%; */
+        position: relative;
+        left: -55px;
+        width: 65%;
+        top: 0px;
+        
+    }
+    #banner3 .banner-box{
+        min-width: 100%;
+    }
+    #usf{
+        padding: 20px 40px;
+    }
+    #usf .form{
+        min-width: 100%;
+    }
+    #copyright{
+        text-align: center;
+    }
+     #prodetails{
+        display: flex;
+        flex-direction: column;
+    }
+    #prodetails .single-pro-image{
+     min-width: 100%;   
+     margin-right: 0px;
+    }
+    #prodetails .single-pro-details{
+     min-width: 100%;   
+     }
+     /* Blog page */
+    
+     #blog .blog-box{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+     }
+    /* About page */
+    #about-head{
+        flex-direction: column;
+    }
+    #about-head img{
+        min-width: 100%;
+        margin-bottom: 20px;
+    }
+    #about-head div{
+        padding-left: 0px;
+        /* align-items: flex-start; */
+    }
+    #about-head .video {
+        width: 100%;
+        zoom: 150%
+    }
+    /* contact page */
+    #contact-details{
+        flex-direction: column;
+    }
+    #contact-details .details{
+        min-width: 100%;
+        margin-bottom: 30px;
+    }
+    #contact-details .map{
+        min-width: 150%;
+    }
+    #form-details{
+        flex-wrap: wrap;
+        margin: 10px;
+        padding: 30px 10px;
+    }
+    #form-details form{
+        min-width: 100%;
+        margin-bottom: 40px;
+    }
+    /* cart page */
+    #cart-add{
+        flex-direction: column;
+    }
+    #coupon{
+        min-width: 100%;
+    }
+    #subtotal{
+        min-width: 100%;
+        padding: 20px;
+    }
+}
+
